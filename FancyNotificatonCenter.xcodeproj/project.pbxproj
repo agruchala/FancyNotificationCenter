@@ -10,6 +10,11 @@
 		FA95D7DE2215E8EC00FA477D /* FancyNotificatonCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA95D7D42215E8EC00FA477D /* FancyNotificatonCenter.framework */; };
 		FA95D7E32215E8EC00FA477D /* FancyNotificatonCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95D7E22215E8EC00FA477D /* FancyNotificatonCenterTests.swift */; };
 		FA95D7E52215E8EC00FA477D /* FancyNotificatonCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = FA95D7D72215E8EC00FA477D /* FancyNotificatonCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA95D7F02215E92300FA477D /* NotificationCenter+Fancy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95D7EF2215E92300FA477D /* NotificationCenter+Fancy.swift */; };
+		FA95D7F22215E93B00FA477D /* NotificationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95D7F12215E93B00FA477D /* NotificationItem.swift */; };
+		FA95D7F42215E94900FA477D /* NotificationPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95D7F32215E94900FA477D /* NotificationPayload.swift */; };
+		FA95D7F62215ED1200FA477D /* Notification+Fancy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95D7F52215ED1200FA477D /* Notification+Fancy.swift */; };
+		FAC4B54C2215F602007F9E47 /* TestPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC4B54B2215F602007F9E47 /* TestPayload.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,11 @@
 		FA95D7DD2215E8EC00FA477D /* FancyNotificatonCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancyNotificatonCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA95D7E22215E8EC00FA477D /* FancyNotificatonCenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyNotificatonCenterTests.swift; sourceTree = "<group>"; };
 		FA95D7E42215E8EC00FA477D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA95D7EF2215E92300FA477D /* NotificationCenter+Fancy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+Fancy.swift"; sourceTree = "<group>"; };
+		FA95D7F12215E93B00FA477D /* NotificationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationItem.swift; sourceTree = "<group>"; };
+		FA95D7F32215E94900FA477D /* NotificationPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPayload.swift; sourceTree = "<group>"; };
+		FA95D7F52215ED1200FA477D /* Notification+Fancy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Fancy.swift"; sourceTree = "<group>"; };
+		FAC4B54B2215F602007F9E47 /* TestPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPayload.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +81,7 @@
 		FA95D7D62215E8EC00FA477D /* FancyNotificatonCenter */ = {
 			isa = PBXGroup;
 			children = (
+				FA95D7EE2215E8FC00FA477D /* Source */,
 				FA95D7D72215E8EC00FA477D /* FancyNotificatonCenter.h */,
 				FA95D7D82215E8EC00FA477D /* Info.plist */,
 			);
@@ -80,10 +91,30 @@
 		FA95D7E12215E8EC00FA477D /* FancyNotificatonCenterTests */ = {
 			isa = PBXGroup;
 			children = (
+				FAC4B54A2215F5E9007F9E47 /* TestPayload */,
 				FA95D7E22215E8EC00FA477D /* FancyNotificatonCenterTests.swift */,
 				FA95D7E42215E8EC00FA477D /* Info.plist */,
 			);
 			path = FancyNotificatonCenterTests;
+			sourceTree = "<group>";
+		};
+		FA95D7EE2215E8FC00FA477D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FA95D7EF2215E92300FA477D /* NotificationCenter+Fancy.swift */,
+				FA95D7F12215E93B00FA477D /* NotificationItem.swift */,
+				FA95D7F32215E94900FA477D /* NotificationPayload.swift */,
+				FA95D7F52215ED1200FA477D /* Notification+Fancy.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		FAC4B54A2215F5E9007F9E47 /* TestPayload */ = {
+			isa = PBXGroup;
+			children = (
+				FAC4B54B2215F602007F9E47 /* TestPayload.swift */,
+			);
+			path = TestPayload;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +179,7 @@
 				TargetAttributes = {
 					FA95D7D32215E8EC00FA477D = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					FA95D7DC2215E8EC00FA477D = {
 						CreatedOnToolsVersion = 10.1;
@@ -194,6 +226,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA95D7F42215E94900FA477D /* NotificationPayload.swift in Sources */,
+				FA95D7F02215E92300FA477D /* NotificationCenter+Fancy.swift in Sources */,
+				FA95D7F62215ED1200FA477D /* Notification+Fancy.swift in Sources */,
+				FA95D7F22215E93B00FA477D /* NotificationItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC4B54C2215F602007F9E47 /* TestPayload.swift in Sources */,
 				FA95D7E32215E8EC00FA477D /* FancyNotificatonCenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +378,7 @@
 		FA95D7E92215E8EC00FA477D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +396,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.arturgruchala.FancyNotificatonCenter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +405,7 @@
 		FA95D7EA2215E8EC00FA477D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +431,7 @@
 		FA95D7EC2215E8EC00FA477D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A87MWTZ6CQ;
 				INFOPLIST_FILE = FancyNotificatonCenterTests/Info.plist;
@@ -409,6 +450,7 @@
 		FA95D7ED2215E8EC00FA477D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A87MWTZ6CQ;
 				INFOPLIST_FILE = FancyNotificatonCenterTests/Info.plist;
