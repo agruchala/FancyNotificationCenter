@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA95D7DE2215E8EC00FA477D /* FancyNotificatonCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA95D7D42215E8EC00FA477D /* FancyNotificatonCenter.framework */; };
+		FA95D7DE2215E8EC00FA477D /* FancyNotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA95D7D42215E8EC00FA477D /* FancyNotificationCenter.framework */; };
 		FA95D7E32215E8EC00FA477D /* FancyNotificatonCenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95D7E22215E8EC00FA477D /* FancyNotificatonCenterTests.swift */; };
 		FA95D7E52215E8EC00FA477D /* FancyNotificatonCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = FA95D7D72215E8EC00FA477D /* FancyNotificatonCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA95D7F02215E92300FA477D /* NotificationCenter+Fancy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95D7EF2215E92300FA477D /* NotificationCenter+Fancy.swift */; };
@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FA95D7D42215E8EC00FA477D /* FancyNotificatonCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FancyNotificatonCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA95D7D42215E8EC00FA477D /* FancyNotificationCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FancyNotificationCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA95D7D72215E8EC00FA477D /* FancyNotificatonCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FancyNotificatonCenter.h; sourceTree = "<group>"; };
 		FA95D7D82215E8EC00FA477D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA95D7DD2215E8EC00FA477D /* FancyNotificatonCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancyNotificatonCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA95D7DD2215E8EC00FA477D /* FancyNotificationCenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancyNotificationCenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA95D7E22215E8EC00FA477D /* FancyNotificatonCenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyNotificatonCenterTests.swift; sourceTree = "<group>"; };
 		FA95D7E42215E8EC00FA477D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA95D7EF2215E92300FA477D /* NotificationCenter+Fancy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+Fancy.swift"; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA95D7DE2215E8EC00FA477D /* FancyNotificatonCenter.framework in Frameworks */,
+				FA95D7DE2215E8EC00FA477D /* FancyNotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +63,8 @@
 		FA95D7CA2215E8EC00FA477D = {
 			isa = PBXGroup;
 			children = (
-				FA95D7D62215E8EC00FA477D /* FancyNotificatonCenter */,
-				FA95D7E12215E8EC00FA477D /* FancyNotificatonCenterTests */,
+				FA95D7D62215E8EC00FA477D /* FancyNotificationCenter */,
+				FA95D7E12215E8EC00FA477D /* FancyNotificationCenterTests */,
 				FA95D7D52215E8EC00FA477D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,30 +72,30 @@
 		FA95D7D52215E8EC00FA477D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA95D7D42215E8EC00FA477D /* FancyNotificatonCenter.framework */,
-				FA95D7DD2215E8EC00FA477D /* FancyNotificatonCenterTests.xctest */,
+				FA95D7D42215E8EC00FA477D /* FancyNotificationCenter.framework */,
+				FA95D7DD2215E8EC00FA477D /* FancyNotificationCenterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA95D7D62215E8EC00FA477D /* FancyNotificatonCenter */ = {
+		FA95D7D62215E8EC00FA477D /* FancyNotificationCenter */ = {
 			isa = PBXGroup;
 			children = (
 				FA95D7EE2215E8FC00FA477D /* Source */,
 				FA95D7D72215E8EC00FA477D /* FancyNotificatonCenter.h */,
 				FA95D7D82215E8EC00FA477D /* Info.plist */,
 			);
-			path = FancyNotificatonCenter;
+			path = FancyNotificationCenter;
 			sourceTree = "<group>";
 		};
-		FA95D7E12215E8EC00FA477D /* FancyNotificatonCenterTests */ = {
+		FA95D7E12215E8EC00FA477D /* FancyNotificationCenterTests */ = {
 			isa = PBXGroup;
 			children = (
 				FAC4B54A2215F5E9007F9E47 /* TestPayload */,
 				FA95D7E22215E8EC00FA477D /* FancyNotificatonCenterTests.swift */,
 				FA95D7E42215E8EC00FA477D /* Info.plist */,
 			);
-			path = FancyNotificatonCenterTests;
+			path = FancyNotificationCenterTests;
 			sourceTree = "<group>";
 		};
 		FA95D7EE2215E8FC00FA477D /* Source */ = {
@@ -131,9 +131,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		FA95D7D32215E8EC00FA477D /* FancyNotificatonCenter */ = {
+		FA95D7D32215E8EC00FA477D /* FancyNotificationCenter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA95D7E82215E8EC00FA477D /* Build configuration list for PBXNativeTarget "FancyNotificatonCenter" */;
+			buildConfigurationList = FA95D7E82215E8EC00FA477D /* Build configuration list for PBXNativeTarget "FancyNotificationCenter" */;
 			buildPhases = (
 				FA95D7CF2215E8EC00FA477D /* Headers */,
 				FA95D7D02215E8EC00FA477D /* Sources */,
@@ -144,14 +144,14 @@
 			);
 			dependencies = (
 			);
-			name = FancyNotificatonCenter;
+			name = FancyNotificationCenter;
 			productName = FancyNotificatonCenter;
-			productReference = FA95D7D42215E8EC00FA477D /* FancyNotificatonCenter.framework */;
+			productReference = FA95D7D42215E8EC00FA477D /* FancyNotificationCenter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FA95D7DC2215E8EC00FA477D /* FancyNotificatonCenterTests */ = {
+		FA95D7DC2215E8EC00FA477D /* FancyNotificationCenterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA95D7EB2215E8EC00FA477D /* Build configuration list for PBXNativeTarget "FancyNotificatonCenterTests" */;
+			buildConfigurationList = FA95D7EB2215E8EC00FA477D /* Build configuration list for PBXNativeTarget "FancyNotificationCenterTests" */;
 			buildPhases = (
 				FA95D7D92215E8EC00FA477D /* Sources */,
 				FA95D7DA2215E8EC00FA477D /* Frameworks */,
@@ -162,9 +162,9 @@
 			dependencies = (
 				FA95D7E02215E8EC00FA477D /* PBXTargetDependency */,
 			);
-			name = FancyNotificatonCenterTests;
+			name = FancyNotificationCenterTests;
 			productName = FancyNotificatonCenterTests;
-			productReference = FA95D7DD2215E8EC00FA477D /* FancyNotificatonCenterTests.xctest */;
+			productReference = FA95D7DD2215E8EC00FA477D /* FancyNotificationCenterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FA95D7CE2215E8EC00FA477D /* Build configuration list for PBXProject "FancyNotificatonCenter" */;
+			buildConfigurationList = FA95D7CE2215E8EC00FA477D /* Build configuration list for PBXProject "FancyNotificationCenter" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -198,8 +198,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA95D7D32215E8EC00FA477D /* FancyNotificatonCenter */,
-				FA95D7DC2215E8EC00FA477D /* FancyNotificatonCenterTests */,
+				FA95D7D32215E8EC00FA477D /* FancyNotificationCenter */,
+				FA95D7DC2215E8EC00FA477D /* FancyNotificationCenterTests */,
 			);
 		};
 /* End PBXProject section */
@@ -247,7 +247,7 @@
 /* Begin PBXTargetDependency section */
 		FA95D7E02215E8EC00FA477D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FA95D7D32215E8EC00FA477D /* FancyNotificatonCenter */;
+			target = FA95D7D32215E8EC00FA477D /* FancyNotificationCenter */;
 			targetProxy = FA95D7DF2215E8EC00FA477D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -469,7 +469,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA95D7CE2215E8EC00FA477D /* Build configuration list for PBXProject "FancyNotificatonCenter" */ = {
+		FA95D7CE2215E8EC00FA477D /* Build configuration list for PBXProject "FancyNotificationCenter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA95D7E62215E8EC00FA477D /* Debug */,
@@ -478,7 +478,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA95D7E82215E8EC00FA477D /* Build configuration list for PBXNativeTarget "FancyNotificatonCenter" */ = {
+		FA95D7E82215E8EC00FA477D /* Build configuration list for PBXNativeTarget "FancyNotificationCenter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA95D7E92215E8EC00FA477D /* Debug */,
@@ -487,7 +487,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA95D7EB2215E8EC00FA477D /* Build configuration list for PBXNativeTarget "FancyNotificatonCenterTests" */ = {
+		FA95D7EB2215E8EC00FA477D /* Build configuration list for PBXNativeTarget "FancyNotificationCenterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA95D7EC2215E8EC00FA477D /* Debug */,
