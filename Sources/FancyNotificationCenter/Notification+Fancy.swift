@@ -13,7 +13,7 @@ public extension Notification {
     /// Decodes `Notification` to provide payload
     ///
     /// - Returns: retrieved `payload` or nil
-    public func decode<T: NotificationPayload>() -> T? {
+    func decode<T: NotificationPayload>() -> T? {
         return userInfo?[payloadKey] as? T
     }
 }
